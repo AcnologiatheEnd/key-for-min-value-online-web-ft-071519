@@ -14,5 +14,5 @@ def key_for_min_value(name_hash)
     mines = key
     end
   end
-mines if mine != ""
+return mines if mines != "" 
 end
