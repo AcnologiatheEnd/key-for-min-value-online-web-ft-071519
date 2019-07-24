@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   mine = name_hash.first
   for i in name_hash
-    if i<mine
+    if i < mine
     mine = i
     end
   end
