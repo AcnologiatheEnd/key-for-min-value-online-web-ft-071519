@@ -10,5 +10,5 @@ def key_for_min_value(name_hash)
     mine = int
     end
   end
-mine
+name_hash[mine]
 end
