@@ -3,6 +3,6 @@
 
 def key_for_min_value(name_hash)
   key=0
-  name_hash.each do |e|
-    if e>0
+  name_hash.each do |e,f|
+    if f>0
 end
