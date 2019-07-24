@@ -6,8 +6,8 @@ def key_for_min_value(name_hash)
   name_hash.each do |key,int|
     if mine == 0
       mine = int
-    elsif i < mine
-    mine = i
+    elsif int < mine
+    mine = int
     end
   end
 mine
