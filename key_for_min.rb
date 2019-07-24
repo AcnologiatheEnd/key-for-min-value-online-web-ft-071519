@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   mine = 0
   mines = ""
+  
   name_hash.each do |key,int|
     if mine == 0
       mine = int
@@ -13,5 +14,5 @@ def key_for_min_value(name_hash)
     mines = key
     end
   end
-mines
+mines if mine != ""
 end
